@@ -3,14 +3,15 @@ import py_avataaars as pa
 from PIL import Image
 import base64
 from random import randrange
-st.write('For customization click on arraow on left upper corner')
 # Page title
 st.markdown("""
 # Avatar Maker
 ** Here you can create your own cartoon avatar by selecting feature of your own choice **
-** 'For customization click on arraow on left upper corner' **
+ 
 """)
-
+st.write(')
+st.write('')
+st.write('For customization click on arraow on left upper corner')
 # Sidebar menu for customizing the avatar
 st.sidebar.header('Customize your avatar')
 
